@@ -37,7 +37,7 @@ function showCoords(event) {
     context.moveTo(0, 0);
     context.lineTo(430, 430);
 
-    const x = event.clientX - 620;
+    const x = event.clientX - 709;
     const y = event.clientY - 42;
     document.getElementById("input-X").value = x;
     document.getElementById("input-Y").value = y;
